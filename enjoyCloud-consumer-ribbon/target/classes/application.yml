@@ -1,0 +1,16 @@
+server:
+  port: 80
+  
+#eureka:
+#  client:
+#    register-with-eureka: false
+#    service-url:
+#      defaultZone: http://admin:enjoy@eureka1:7001/eureka,http://admin:enjoy@eureka2:7002/eureka,http://admin:enjoy@eureka3:7003/eureka
+
+ribbon:
+  eureka:
+    enabled: false
+
+ENJOYCLOUD-PROVIDER-PRODUCT:
+  ribbon:
+    listOfServers: http://localhost:8080,http://localhost:8081,http://localhost:8082
