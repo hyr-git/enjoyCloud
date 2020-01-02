@@ -1,0 +1,14 @@
+pring:
+   profiles:
+      active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+      name: enjoy-config-test-dev
+---
+spring:
+ profiles: default
+ application:
+      name: enjoy-config-test-default
