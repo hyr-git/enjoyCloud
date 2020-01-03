@@ -11,6 +11,10 @@ spring:
   application:
       name: enjoyConfig-test-client
 
+info:
+  app.name: enjoyCloud-config-client-dev
+  company.name: enjoy
+
 eureka:
  client:
   service-url:
